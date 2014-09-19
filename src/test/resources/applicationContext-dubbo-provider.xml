@@ -14,7 +14,7 @@
   <dubbo:application name="dubbo-demo"/>
 
   <!-- 配置服务注册中心地址 -->
-  <dubbo:registry address="zookeeper://127.0.0.1:2181"/>
+  <dubbo:registry address="zookeeper://com.lenovo.dubbo.registry:2181"/>
 
   <!-- 以dubbo协议在20880端口暴露服务 -->
   <dubbo:protocol name="dubbo" port="20880"/>
